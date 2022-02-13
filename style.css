@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #CCD7E3;
+	color: #45330C;
+	font-size: 12px;
+	font-family: Arial, Tahoma, sans-serif;
+	text-align: center;
+}
+
+a{
+	color: #3B2D0D;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.clear{
+	clear: both;
+}
+
+#kontener{
+	width: 1024px;
+	margin: 5px auto;
+	text-align: left;
+	background-image: url(grafika/tresc.jpg);  
+	border: 1px solid #888D91;
+}
+
+#naglowek{
+	height: 200px;
+	border: 1px solid #888D91;
+    background-image: url(grafika/tele.jpg);
+}
+
+#naglowek h1{
+	margin: 15px;
+	text-align: left;
+	padding: 10px ;
+
+}
+
+#menu_gorne{
+	background: #C8C9C5;
+    border: 1px solid #888D91;
+	padding: 0 10px;
+}
+
+#menu_gorne ul, #menu_gorne li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_gorne li{
+	float: left;
+
+}
+
+#menu_gorne a{
+	display: block;
+	padding: 5px 10px;
+}
+
+#menu_gorne a:hover{
+	background: #F4F5F0;
+}
+
+#menu_lewe{
+	background: #F4F5F0;
+	border: 1px solid #888D91;
+	width: 125px;
+	height: 650px;
+	padding: 5px 10px;
+	float: left;
+	font-size: 13px;
+}
+
+#menu_lewe h3{
+	margin:0;
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+#menu_lewe ul, #menu_lewe li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_lewe li{
+	padding: 2px 0;
+}
+
+#tresc{
+	float:right;
+	width: 857px;
+	padding: 10px;
+
+}
+
+#stopka{
+	background: #C8C9C5;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid #888D91;
+	
+}
+
